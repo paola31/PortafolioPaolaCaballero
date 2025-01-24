@@ -176,3 +176,17 @@ a {
 a:hover {
   color: #4ca1af;
 }
+
+.card {
+  min-height: 200px; /* Ajusta el valor según necesites */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body {
+  padding: 20px; /* Aumenta si es necesario */
+}

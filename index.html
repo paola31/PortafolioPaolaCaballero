@@ -1,107 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hoja de Vida - Paola Caballero</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Paola Caballero</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
-<header>
-  <div class="animated-background"></div>
-  <img src="img/perfil.jpeg" alt="Foto de perfil de Paola Caballero" height="150" width="150">
-  <h1>&lt;/PAOLA CABALLERO&gt;</h1>
-  <p class="contact-info">
-    <a href="mailto:paolisco2525@gmail.com">paolisco2525@gmail.com</a><br>
-    <a href="https://github.com/paola31?tab=repositories" target="_blank">GitHub</a><br>
-    <a href="https://www.linkedin.com/in/paola-caballero-135445138/" target="_blank">LinkedIn</a>
-  </p>
+</head>
+<body class="bg-dark text-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">&lt;/PAOLA CABALLERO&gt;</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                <li class="nav-item"><a class="btn btn-outline-warning" href="cv.html">Ver Hoja de Vida</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="text-center py-5 position-relative" style="background: url('img/header-bg.jpg') center/cover; height: 80vh;">
+    <div class="container position-absolute top-50 start-50 translate-middle text-center">
+        <h1 class="fw-bold text-light">Digital Solutions With &lt;/PAOLA&gt;</h1>
+        <p class="lead text-light">Transformando ideas en código.</p>
+        <a href="cv.html" class="btn btn-outline-warning mt-3">Ver Hoja de Vida</a>
+    </div>
 </header>
 
-<main>
-  <section class="summary">
-    <h2>Resumen Profesional</h2>
-    <p>
-      Soy desarrolladora web y móvil en proceso de aprendizaje, con el objetivo de adquirir y fortalecer
-      las habilidades tecnológicas necesarias para desarrollar proyectos innovadores. Me siento atraída por
-      este campo porque me permite crear soluciones que mejoren y faciliten nuestra vida cotidiana.
-    </p>
-  </section>
+<main class="container mt-5">
+    <section id="projects" class="mb-5">
+        <h2 class="text-center mb-4">Proyectos</h2>
+        <div class="row text-center">
+            <div class="col-md-6 mb-4">
+                <div class="card bg-secondary text-light p-4 border-0 shadow">
+                    <h3>SolarSports</h3>
+                    <p>aaaaaaaaaaaa.</p>
+                    <a href="#" class="btn btn-outline-warning">Ver más</a>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card bg-secondary text-light p-4 border-0 shadow">
+                    <h3>Aura</h3>
+                    <p>aaaaaaaaaa.</p>
+                    <a href="#" class="btn btn-outline-warning">Ver más</a>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card bg-secondary text-light p-4 border-0 shadow">
+                    <h3>Ejercicios</h3>
+                    <p>aaaaaa.</p>
+                    <a href="#" class="btn btn-outline-warning">Ver más</a>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card bg-secondary text-light p-4 border-0 shadow">
+                    <h3>Ejercicios</h3>
+                    <p>aaaaaa.</p>
+                    <a href="#" class="btn btn-outline-warning">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="education">
-    <h2>Educación</h2>
-    <ul>
-      <li>
-        <strong>Diplomado en desarrollo de apps móviles nivel intermedio</strong><br>
-        Universidad Nacional de Colombia, Bogotá - Colombia<br>
-        Actualmente
-      </li>
-      <li>
-        <strong>Diplomado en desarrollo de apps móviles nivel básico</strong><br>
-        Universidad Nacional de Colombia, Bogotá - Colombia<br>
-        2023
-      </li>
-      <li>
-        <strong>Curso introducción desarrollo en JavaScript</strong><br>
-        Programa Universidad EPAM, Colombia<br>
-        2022 - 2023
-      </li>
-      <li>
-        <strong>Programa en habilidades en programación con énfasis en aplicaciones web</strong><br>
-        Universidad del Norte, Cali - Colombia<br>
-        2022
-      </li>
-      <li>
-        <strong>Arquitectura</strong><br>
-        Universidad Católica de Colombia, Bogotá - Colombia<br>
-        2013 - 2018
-      </li>
-    </ul>
-  </section>
-
-  <section class="experience">
-    <h2>Experiencia Profesional</h2>
-    <ul>
-      <li>
-        <strong>Asistente de desarrollo</strong><br>
-        Ing. de sistemas Camilo Castro, Marzo 2023 - Presente<br>
-        Apoyo en el desarrollo de aplicaciones web.
-      </li>
-      <li>
-        <strong>Arquitecta</strong><br>
-        Studiofan, Febrero 2018 - Marzo 2022<br>
-        Diseño y gestión de proyectos arquitectónicos.
-      </li>
-    </ul>
-  </section>
-
-  <section class="skills">
-    <h2>Habilidades Técnicas</h2>
-    <ul>
-      <li><img src="https://www.svgrepo.com/show/75601/java-logo.svg" alt="Java" class="skill-icon"> Java</li>
-      <li><img src="https://cdn-icons-png.flaticon.com/512/28/28951.png" alt="HTML" class="skill-icon"> HTML</li>
-      <li><img src="https://cdn-icons-png.freepik.com/512/29/29600.png" alt="CSS" class="skill-icon"> CSS</li>
-      <li><img src="https://www.svgrepo.com/show/306259/javascript.svg" class="skill-icon"> JavaScript</li>
-      <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968719.png" alt="Figma" class="skill-icon"> Figma</li>
-      <li><img src="https://www.svgrepo.com/show/494193/android.svg" alt="Android Studio" class="skill-icon"> Android Studio</li>
-      <li><img src="https://img.freepik.com/premium-vector/business-concept-featuring-business-strategy-development-vector-style-illustration-design_1226483-8954.jpg?semt=ais_hybrid" alt="Scrum" class="skill-icon"> Scrum</li>
-    </ul>
-  </section>
-
-  <section class="languages">
-    <h2>Idiomas</h2>
-    <ul>
-      <li>Español (Nativo)</li>
-      <li>Inglés (B1 Certificado - British Council)</li>
-    </ul>
-  </section>
+    <section id="contact" class="text-center">
+        <h2>Contacto</h2>
+        <form class="d-flex flex-column align-items-center w-50 mx-auto mt-3">
+            <input type="text" class="form-control mb-2" placeholder="Tu Nombre" required>
+            <input type="email" class="form-control mb-2" placeholder="Tu Correo" required>
+            <textarea class="form-control mb-2" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit" class="btn btn-outline-warning">Enviar</button>
+        </form>
+    </section>
 </main>
 
-<footer>
-  <div class="animated-background-footer"></div>
-  <p>&lt;/SOFTWARE DEVELOPER&gt;</p>
+<footer class="text-center py-4 mt-5 bg-black text-warning">
+    <p>&lt;/SOFTWARE DEVELOPER&gt;</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
