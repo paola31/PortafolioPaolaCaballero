@@ -1,89 +1,244 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Paola Caballero</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>Paola Caballero - Portafolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
 </head>
-<body class="bg-dark text-light">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-black py-3">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="#">&lt;/PAOLA CABALLERO&gt;</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container px-4 px-lg-5">
+        <!-- LinkedIn con icono -->
+        <a class="navbar-brand d-flex align-items-center"
+           href="https://www.linkedin.com/in/paola-johana-caballero-rodriguez-developer"
+           target="_blank">
+            <i class="fab fa-linkedin fa-lg me-2"></i> Visita mi LinkedIn
+        </a>
+
+        <!-- Botón de menú responsive -->
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+
+        <!-- Enlaces de navegación -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-                <li class="nav-item"><a class="btn btn-outline-warning" href="cv.html">Ver Hoja de Vida</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Mis proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contáctame</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<header class="text-center py-5 position-relative" style="background: url('img/header-bg.jpg') center/cover; height: 80vh;">
-    <div class="container position-absolute top-50 start-50 translate-middle text-center">
-        <h1 class="fw-bold text-light">Digital Solutions With &lt;/PAOLA&gt;</h1>
-        <p class="lead text-light">Transformando ideas en código.</p>
-        <a href="cv.html" class="btn btn-outline-warning mt-3">Ver Hoja de Vida</a>
+<!-- Masthead -->
+<header class="masthead">
+    <div class="container-fluid h-100 d-flex flex-column align-items-center justify-content-center text-center">
+        <img src="https://res.cloudinary.com/di1xiwdsn/image/upload/v1740165244/IMG_20240831_135205_jriydz_1_vfhyoa-Photoroom_gvygnx.png"
+             class="img-photo">
+        <h1 class="text-uppercase">Paola Caballero</h1>
+        <h3 class="text-white-50 mt-2 mb-4">Desarrolladora web | Full stack</h3>
+        <a class="btn btn-primary btn-custom" href="assets/pdf/mi_cv.pdf" download="Hoja_de_Vida_Paola_Caballero.pdf">
+            Descargar mi hoja de vida
+        </a>
     </div>
 </header>
 
-<main class="container mt-5">
-    <section id="projects" class="mb-5">
-        <h2 class="text-center mb-4">Proyectos</h2>
-        <div class="row text-center">
-            <div class="col-md-6 mb-4">
-                <div class="card bg-secondary text-light p-4 border-0 shadow">
-                    <h3>SolarSports</h3>
-                    <p>aaaaaaaaaaaa.</p>
-                    <a href="#" class="btn btn-outline-warning">Ver más</a>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4">
-                <div class="card bg-secondary text-light p-4 border-0 shadow">
-                    <h3>Aura</h3>
-                    <p>aaaaaaaaaa.</p>
-                    <a href="#" class="btn btn-outline-warning">Ver más</a>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4">
-                <div class="card bg-secondary text-light p-4 border-0 shadow">
-                    <h3>Ejercicios</h3>
-                    <p>aaaaaa.</p>
-                    <a href="#" class="btn btn-outline-warning">Ver más</a>
-                </div>
-            </div>
-            <div class="col-md-6 mb-4">
-                <div class="card bg-secondary text-light p-4 border-0 shadow">
-                    <h3>Ejercicios</h3>
-                    <p>aaaaaa.</p>
-                    <a href="#" class="btn btn-outline-warning">Ver más</a>
-                </div>
+<!-- About -->
+<section class="about-section text-center" id="about">
+    <div class="container px-4 px-lg-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-7">
+                <h2 class="text-white mb-4">Sobre mí</h2>
+                <p class="text-white-50 mx-auto mt-4 text-justify ">
+                    Soy desarrolladora web y móvil con formación en arquitectura, apasionada por crear soluciones
+                    tecnológicas innovadoras que mejoren la vida cotidiana de las personas. Me encanta combinar mi
+                    visión creativa con habilidades técnicas para diseñar y desarrollar proyectos funcionales y
+                    atractivos.
+                    Tengo experiencia trabajando con HTML, CSS, JavaScript, Bootstrap, Java y Spring Boot, creando
+                    interfaces intuitivas y eficientes. También manejo Figma para prototipos y Android Studio para
+                    aplicaciones móviles.
+                    Mi enfoque proactivo, junto con mi conocimiento en Scrum, me permite gestionar proyectos de manera
+                    ágil y efectiva. Siempre busco aprender nuevas tecnologías que aporten valor y generen un impacto
+                    positivo en la sociedad.
+                </p>
             </div>
         </div>
-    </section>
-
-    <section id="contact" class="text-center">
-        <h2>Contacto</h2>
-        <form class="d-flex flex-column align-items-center w-50 mx-auto mt-3">
-            <input type="text" class="form-control mb-2" placeholder="Tu Nombre" required>
-            <input type="email" class="form-control mb-2" placeholder="Tu Correo" required>
-            <textarea class="form-control mb-2" placeholder="Tu Mensaje" required></textarea>
-            <button type="submit" class="btn btn-outline-warning">Enviar</button>
-        </form>
-    </section>
-</main>
-
-<footer class="text-center py-4 mt-5 bg-black text-warning">
-    <p>&lt;/SOFTWARE DEVELOPER&gt;</p>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
+</section>
 </body>
-</html>
+
+<!-- Projects -->
+<section class="projects-section bg-light" id="projects">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-0 mb-5">
+            <div class="col-lg-12 text-center">
+                <h2 class="text-black mb-4">Mis proyectos</h2>
+            </div>
+        </div>
+        <div class="row gx-4 gx-lg-5">
+            <!-- Proyecto 1 -->
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="card project-card">
+                    <div class="video-container">
+                        <video class="card-video" controls>
+                            <source src="assets/videos/SOLAR%20Sports_Paola%20Caballero.mp4" type="video/mp4">
+                            Tu navegador no soporta videos.
+                        </video>
+                    </div>
+                    <div class="card-body text-justify">
+                        <h5 class="card-title">SOLAR SPORTS</h5>
+                        <a href="https://github.com/paola31/SolarSports.git" class="github-btn">GitHub</a>
+                        <p class="card-text">
+                            SOLAR Sports es una aplicación móvil, desarrollada con Android Studio y Java, que proporciona información personalizada para la instalación de paneles solares en espacios deportivos.
+                            La app permite calcular la viabilidad del proyecto, visualizar estadísticas energéticas, facilitar la venta de energía y acceder a artículos actualizados sobre avances en energía solar.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="card project-card">
+                    <!-- Carrusel con tres imágenes -->
+                    <div id="carouselProject2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/INTI-1.jpeg" class="d-block w-100" alt="Imagen 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/INTI-2.jpeg" class="d-block w-100" alt="Imagen 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/INTI-3.jpeg" class="d-block w-100" alt="Imagen 3">
+                            </div>
+                        </div>
+                        <!-- Botones de navegación -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject2"
+                                data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselProject2"
+                                data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">INTI SUSTAINABLE MARKET</h5>
+                        <a href="https://github.com/paola31/GenFinalProject.git" class="github-btn">GitHub</a>
+                        <p class="card-text">INTI es un e-commerce de productos sostenibles, desarrollado con un enfoque
+                            académico utilizando Java, HTML, Bootstrap y Spring Boot.
+                            La plataforma permite a los usuarios explorar y adquirir productos ecológicos, promoviendo
+                            un consumo responsable. Además, cuenta con una interfaz intuitiva, un sistema de gestión de
+                            pedidos eficiente y herramientas para fomentar el comercio sostenible</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="card project-card">
+                    <div class="slider-container">
+                        <div class="slider">
+                            <img src="assets/img/vxf-2.png" class="slider-img" alt="Imagen 2">
+                            <img src="assets/img/vxf-3.png" class="slider-img" alt="Imagen 3">
+                            <img src="assets/img/vxf-4.png" class="slider-img" alt="Imagen 4">
+                            <img src="assets/img/vxf-5.png" class="slider-img" alt="Imagen 5">
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">VEGANXPRESS FOOD</h5>
+                        <a href="https://github.com/paola31/VeganExpressFood.git" class="github-btn">GitHub</a>
+                        <p class="card-text">Vegan Xpress Food es una aplicación web, desarrollada con un enfoque
+                            académico utilizando Express.js, MySQL, Docker, Vue.js y Bootstrap, que permite a los
+                            usuarios ver el menú, hacer pedidos y reservaciones.
+                            Además, cuenta con un panel de administración donde los usuarios pueden gestionar el
+                            contenido del menú, modificar ítems y supervisar pedidos, optimizando la experiencia del
+                            restaurante.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Proyecto 4 -->
+            <div class="col-md-6 col-lg-6 mb-5">
+                <div class="card project-card">
+                    <!-- Video en la parte superior -->
+                    <div class="video-container">
+                        <video class="card-video" controls>
+                            <source src="assets/videos/RetoFit.webm" type="video/mp4">
+                            Tu navegador no soporta videos.
+                        </video>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">RetoFit</h5>
+                        <a href="https://github.com/paola31/RetoFit.git" class="github-btn">GitHub</a>
+                        <p class="card-text">
+                            RetoFit es una landing page desarrollada durante una competencia de hackathon en Generation
+                            Colombia, utilizando HTML, JavaScript y Bootstrap.
+                            La plataforma gamifica la actividad física, incentivando a los usuarios a realizar ejercicio
+                            de manera divertida y motivadora a través de desafíos y recompensas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Contacto -->
+            <section class="contact-section text-center" id="contact">
+                <div class="container px-4 px-lg-5">
+                    <h2 class="text-white mb-4">Contáctame</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 mb-4">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4 class="text-white-50">Ubicación</h4>
+                            <p class="small text-white-50">Bogotá, Colombia</p>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <i class="fas fa-envelope"></i>
+                            <h4 class="text-white-50">Correo</h4>
+                            <p class="small">
+                                <a href="mailto:paolisco2525@gmail.com" class="contact-link">paolisco2525@gmail.com</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <i class="fas fa-phone-alt"></i>
+                            <h4 class="text-white-50">Teléfono</h4>
+                            <p class="small text-white-50">(+57) 317 517 8436</p>
+                        </div>
+                    </div>
+                    <!-- Sección de GitHub alineada con los demás -->
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <i class="fab fa-github"></i>
+                            <h4 class="text-white-50">GitHub</h4>
+                            <p class="small">
+                                <a href="https://github.com/paola31" class="contact-link">github.com/paola31</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer-->
+            <footer class="footer  small text-center text-white-50">
+                <div class="container px-4 px-lg-5">Copyright &copy; Paola Caballero 2025</div>
+            </footer>
+            <!-- Bootstrap core JS-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- Core theme JS-->
+            <script src="js/scripts.js"></script>
+        </div>
+     </html>
